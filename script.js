@@ -12,23 +12,23 @@ window.onload = function(){
 
     img.addEventListener('mousedown', function(){
         increaseScore()
-        img.src = 'Fahira1.png';
+        img.src = "Fahira1.png";
         img.classList.add('pop');
         Opensound.play();
     });
     img.addEventListener('mouseup', function(){
-        img.src = 'Fahira.jpg';
+        img.src = "Fahira.jpg";
         img.classList.remove('pop');
         Closesound.play();
     });
     img.addEventListener('touchstart', function(){
         increaseScore();
-        img.src = 'Fahira1.png';
+        img.src = "Fahira1.png";
         img.classList.add('pop');
         Opensound.play();
     });
     img.addEventListener('touchend', function(){
-        img.src = 'Fahira.jpg';
+        img.src = "Fahira.jpg";
         img.classList.remove('pop');
         Closesound.play();  
     });
