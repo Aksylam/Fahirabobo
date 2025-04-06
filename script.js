@@ -15,12 +15,12 @@ window.onload = function(){
         img.src = 'Fahira1.png';
         img.classList.add('pop');
         Opensound.play();
-    })
+    });
     img.addEventListener('mouseup', function(){
         img.src = 'Fahira.jpg';
         img.classList.remove('pop');
         Closesound.play();
-    })
+    });
     img.addEventListener('touchstart', function(){
         increaseScore();
         img.src = 'Fahira1.png';
