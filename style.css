@@ -29,3 +29,13 @@ p{
 .pop {
     transform: scale(1.2);
 }
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-size: 2em;
+    }
+    #Fahira {
+        width: 90%;
+    }
